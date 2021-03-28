@@ -11,22 +11,24 @@
 <body>
     
     <div class="capa"></div>
-    <h1 class="title">Formulario de Contacto</h1>
+    <div class="title"><img src="imagenes/logo.png" class="logo"><p>Formulario de Contacto</p></div>
     <div class="btn">
     <a href="index.html"> <label for="btn-menu" class="icon-cancel"></label></label></a>
     </div>
+
     <div class="container">
-        <form action="" class="formulario">
+        <form action="formulario.html" class="formulario" method="GET" onsubmit="return validar(this)">
             <h1 class="formulario__titulo">Contáctenos</h1>
-            <input type="text" class="formulario__input">
+            <input type="text" class="formulario__input" name="nombre">
             <label for="" class="formulario__label">Nombre</label>
-            <input type="text" class="formulario__input">
+            <input type="text" class="formulario__input" name="email">
             <label for="" class="formulario__label">Correo</label>
-            <input type="text" class="formulario__input">
+            <input type="text" class="formulario__input" name="phone">
             <label for="" class="formulario__label">Teléfono</label>
-            <input type="text" class="formulario__input">
+            <input type="text" class="formulario__input" name="msj">
             <label for="" class="formulario__label">Mensaje</label>
-            <input type="submit" class="formulario__submit">
+            <input type="submit" class="formulario__submit" value="ENVIAR">
+            <input type="reset" class="formulario__reset" name="borrar" value="BORRAR DATOS">
         </form>
     </div>
     <script src="./JS/form.js"></script>
