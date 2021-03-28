@@ -16,7 +16,7 @@ function validar(formulario){
         return false;
     }
 
-    var checkOk="QWERTYUIOPASDFGHJKLÑZXCVBNM+"+"qwertyuiopasdfghjklñzxcvbnm";
+    var checkOk="QWERTYUIOPASDFGHJKLÑZXCVBNM+"+"qwertyuiopasdfghjklñzxcvbnm"+" ";
     var checkStr=formulario.nombre.value;
     var allValid=true;
 
