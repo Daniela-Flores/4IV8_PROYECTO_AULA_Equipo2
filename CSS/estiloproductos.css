@@ -12,7 +12,12 @@ body{
     background: url(./imagenes/f2.jpg);
     background-size: 100vw 180vh;
     background-repeat: no-repeat;
+}
+html{
     background: rgba(0,0,0,0.4);
+}
+.icon-cancel:before {
+    content: '\e800';
 }
 .logo{
     width: 150px;
