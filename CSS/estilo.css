@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;600&display=swap');
+html, body{
+margin:0;
+padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background: url(../imagenes/f2.jpg);
+    background-size: 100vw 180vh;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 150px;
+    height: 60px;
+}
+
+.btn label{
+    top: 10px;
+    right: 4px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    z-index: -1;
+    top: 0; left: 0;
+}
+
+.title{
+    padding: 15px 40px;
+    justify-content: space-between;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin-top: 0%;
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.459);
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+/*contenedor*/
+
+
+.container .sub{
+    text-align: justify;
+    color: cornsilk;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    padding-bottom: 0.1px;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contacta{
+    width: 40%;
+    color: whitesmoke;
+}
+
+
+.line{
+    width: 100%;
+    margin: 0 auto;
+    height: 2px;
+    background: whitesmoke;
+    margin-bottom: 60px;
+}
