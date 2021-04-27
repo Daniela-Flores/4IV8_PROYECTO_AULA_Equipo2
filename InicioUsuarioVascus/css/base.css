@@ -1,0 +1,154 @@
+
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: #23242b;
+    color: #fff;
+    }
+
+    .u-name img{
+        padding-left: 17px;
+        padding-top: 10px;
+        height: 40px;
+    }
+
+    
+    .header i{
+        font-size: 30px;
+        color: #fff;
+    }
+    
+
+    .side-bar{
+        width: 250px;
+        background-image: linear-gradient(-225deg, #3c2255 0%, #422a6e 48%, #471185 100%);
+        min-height: 100vh;
+        transition: 500ms width;
+    }
+
+    .body{
+        display: flex;
+    }
+
+    .section1{
+        width: 100%;
+        background: url("../img/national-cancer-institute-1c8sj2IO2I4-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .side-bar ul{
+        margin-top: 0px;
+        list-style: none;
+    }
+
+    .side-bar ul li{
+        font-size: 16px;
+        padding: 15px 0px;
+        padding-left: 20px;
+        padding-top: 20px;
+        transition: 500ms background;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .side-bar ul li:hover{
+    background: rgba(99, 24, 134, 0.452);
+    }
+
+    .side-bar ul li a{
+        text-decoration: none;
+        color: #eee;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+    .side-bar ul li a i{
+        display: inline-block;
+        padding-right: 10px;
+        font-size: 23px;
+    }
+
+    .salir{
+        margin-top: 140%;
+    }
+
+    #navbtn{
+        display: inline-block;
+        font-size: 30px;
+        transition: 500ms color;
+        margin-left: 50px;
+    }
+
+    #navbtn:hover{
+        cursor: pointer;
+        color: rgb(161, 26, 26);
+    }
+    #checkbox{
+        display: none;
+    }
+
+    #checkbox:checked ~ .body .side-bar{
+        width: 60px;
+    }
+    #checkbox:checked ~ .body .side-bar  a span{
+    display: none;
+    }
+
+
+    #footer {
+      background: #111;
+      padding: 30px 0;
+      color: #fff;
+    }
+    
+    #footer .copyright {
+      text-align: center;
+    }
+    
+    #footer .credits {
+      padding-top: 10px;
+      text-align: center;
+      font-size: 13px;
+      color: #ccc;
+    }
+
+    .contenedor{
+        padding: 40px;
+        width: 80vw;
+        background-color: rgba(0,0,0, 0.5);
+        border-radius: 10px;
+    }
+
+    .section1 img{
+        height: 20px;
+        margin-left: 85%;
+    }
+
+    .seccion{
+        color: #fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+    }
+
+    iframe{
+        margin-top: 10px;
+        width: 75vw;
+        height: 70vh;
+    }
+
+    
